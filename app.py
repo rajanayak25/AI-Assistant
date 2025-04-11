@@ -2,8 +2,8 @@ import streamlit as st
 
 st.set_page_config(page_title="My AI Assistant", layout="centered")
 
-st.title("🧑‍💻 I'm Kishu How can I help you ?")
-st.write("Hey Buddy ! Have a good day 😊 ")
+st.title("🧑‍💻 Hi Bayya's how can I help you ?")
+st.write("Hey Aspirant ! Have a good day 😊 ")
 
 # User profile dictionary
 profiles = {
@@ -45,7 +45,7 @@ profiles = {
 }
 
 # Ask user their name
-user_name = st.text_input("Please enter your name to Bayya:")
+user_name = st.text_input("Please enter your name Bayya:")
 
 if user_name:
     lower_name = user_name.lower()
@@ -57,11 +57,11 @@ if user_name:
             query = query.lower()
             data = profiles[lower_name]
             if "name" in query:
-                return f"Hey {user_name}, your name is {user_name} 😊."
+                return f"Hey {user_name}, your name is {user_name} ."
             elif "address" in query:
-                return f"Hey {user_name}, your address is {data['address']} 😊."
+                return f"Hey {user_name}, your address is {data['address']} ."
             elif "profession" in query or "job" in query:
-                return f"Hey {user_name}, you work as a {data['profession']} 😊."
+                return f"Hey {user_name}, you work as a {data['profession']} ."
             elif "goal" in query:
                 return f"Hey {user_name}, your goal is: {data['goals']} 😊."
             else:
