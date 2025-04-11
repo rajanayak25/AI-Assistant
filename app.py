@@ -45,7 +45,7 @@ profiles = {
 }
 
 # Ask user their name
-user_name = st.text_input("Please enter your name to begin:")
+user_name = st.text_input("Please enter your name to Bayya:")
 
 if user_name:
     lower_name = user_name.lower()
