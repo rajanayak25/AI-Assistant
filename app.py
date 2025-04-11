@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="My AI Assistant", layout="centered")
 
 st.title("🧑‍💻 Hi Bayya's how can I help you ?")
-st.write("Hey Aspirant ! Have a good day 😊 ")
+st.write("Hope you're doing well, Have a great day 😊 ")
 
 # User profile dictionary
 profiles = {
