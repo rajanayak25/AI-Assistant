@@ -4,7 +4,7 @@ from profile_data import profile
 st.set_page_config(page_title="My AI Assistant", layout="centered")
 
 st.title("🧑‍💻 I'm Kishu How can i help you ?")
-st.write("Welcome to your personalized assistant!")
+st.write("Hey Buddy ! Have a good day 😊 ")
 
 # Ask user their name
 user_name = st.text_input("Please enter your name to begin:")
