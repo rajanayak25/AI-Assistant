@@ -3,7 +3,7 @@ from profile_data import profile
 
 st.set_page_config(page_title="My AI Assistant", layout="centered")
 
-st.title("🧑‍💻 I'm Kishu How can i help you ?")
+st.title("🤖 I'm Kishu How can i help you ?")
 st.write("Hey Buddy ! Ask me anything about your profile!")
 
 query = st.text_input("Your Question")
