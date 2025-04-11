@@ -36,11 +36,16 @@ profiles = {
         "address": "Hyderabad, Telangana",
         "profession": "Technical Team Lead at Quadrant Technologies, Hyderabad",
         "goals": "You want to become an Expert and you are willing to fly USA"
+    },
+    "sekhar": {
+        "address": "Nellore, Telangana",
+        "profession": "Senior Software Engineer at Quadrant Technologies, Hyderabad",
+        "goals": "You want to become a Millionaire"
     }
 }
 
 # Ask user their name
-user_name = st.text_input("Please enter your name to Bayya:")
+user_name = st.text_input("Please enter your name to begin:")
 
 if user_name:
     lower_name = user_name.lower()
@@ -52,11 +57,11 @@ if user_name:
             query = query.lower()
             data = profiles[lower_name]
             if "name" in query:
-                return f"Hey {user_name}, your name is {user_name}."
+                return f"Hey {user_name}, your name is {user_name} 😊."
             elif "address" in query:
-                return f"Hey {user_name}, your address is {data['address']}."
+                return f"Hey {user_name}, your address is {data['address']} 😊."
             elif "profession" in query or "job" in query:
-                return f"Hey {user_name}, you work as a {data['profession']}."
+                return f"Hey {user_name}, you work as a {data['profession']} 😊."
             elif "goal" in query:
                 return f"Hey {user_name}, your goal is: {data['goals']} 😊."
             else:
@@ -67,3 +72,4 @@ if user_name:
             st.success(response)
     else:
         st.warning("Sorry, you are a outside user !.")
+
