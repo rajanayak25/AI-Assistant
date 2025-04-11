@@ -6,5 +6,5 @@ profile = {
     "education": "Your Education Qualification is B.Tech Computer Science from KITS, Warangal",
     "profession": "You're working as a Software Engineer in Quadrant Technologies,Hyderabad",
     "hobbies": ["Exploring Technologies", "Writing Notes", "Spending time with family and friends"],
-    "goals": "I want to became an AI expert and Service Now Developer"
+    "goals": "You want to become an AI expert and Service Now Developer"
 }
