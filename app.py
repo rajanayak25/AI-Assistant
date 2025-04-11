@@ -25,7 +25,7 @@ def get_info(query):
     elif "hobbies" in query or "hobby" in query:
         return "My hobbies are: " + ", ".join(profile["hobbies"]) + "."
     elif "goal" in query:
-        return f"My goal is: {profile['goals']}."
+        return f": {profile['goals']}."
     else:
         return "Sorry, I couldn't understand that."
 
