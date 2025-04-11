@@ -1,10 +1,10 @@
 profile = {
-    "full_name": "Your Full Name",
-    "address": "Your Address",
-    "mobile_no": "Your Mobile Number",
-    "email": "your.email@example.com",
-    "education": "Your Education Details",
-    "profession": "Your Profession",
-    "hobbies": ["Hobby1", "Hobby2", "Hobby3"],
-    "goals": "Your long-term or short-term goals"
+    "full_name": "Your Full Name is Rajesh Nayak",
+    "address": "You are living in Hyderabad",
+    "mobile_no": "Your Mobile number is 9182232255",
+    "email": "dedavathrajesh@gmail.com",
+    "education": "Your Education Qualification is B.Tech Computer Science from KITS, Warangal",
+    "profession": "You're working as a Software Engineer in Quadrant Technologies,Hyderabad",
+    "hobbies": ["Exploring Technologies", "Writing Notes", "Spending time with family and friends"],
+    "goals": "I want to became an AI expert and Service Now Developer"
 }
