@@ -3,8 +3,8 @@ from profile_data import profile
 
 st.set_page_config(page_title="My AI Assistant", layout="centered")
 
-st.title("👩‍💼 Personal AI Assistant")
-st.write("Ask me anything about your profile!")
+st.title("👩‍💼 I'm Kishu How can i help you ?")
+st.write("Hey Buddy ! Ask me anything about your profile!")
 
 query = st.text_input("Your Question")
 
@@ -13,7 +13,7 @@ def get_info(query):
     if "name" in query:
         return f"My full name is {profile['full_name']}."
     elif "address" in query:
-        return f"My address is {profile['address']}."
+        return f"You're living in {profile['address']}."
     elif "mobile" in query or "phone" in query:
         return f"My mobile number is {profile['mobile_no']}."
     elif "email" in query:
